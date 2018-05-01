@@ -2,6 +2,7 @@
 function Stopwatch() { 
   let startTime, endTime, running, duration = 0;
 
+    //simple stopwatch, review for later
   this.start = function() {
     if (running) 
       throw new Error('Stopwatch has already started.');
