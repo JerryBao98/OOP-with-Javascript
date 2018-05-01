@@ -30,6 +30,8 @@ function Stopwatch() {
     duration = 0; 
   };
 
+  // This isn't good practise, unnesscary and allows for property modification
+
   Object.defineProperty(this, 'duration', {
     get: function() { return duration; }
   });
